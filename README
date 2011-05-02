@@ -1,0 +1,12 @@
+This program solves linear programming problems using the simplex method.  It's
+not efficient at all, but it may be useful to somebody out there as a learning
+tool.  Just type 'make' in directory, and it hopefully it will install.  Tested on ubuntu and arch linux.
+
+I made this program over 6 months ago to avoid writing out tableaus in my
+optimization class, and I am afraid I am not sure if I could still give a good
+explanation of the tableau method.  If you're not sure what to do, type "help" into the prompt.  In example.txt I have included an example of how to use the program to solve simple linear programs.
+
+Quirks that I can remember: I believe that when it goes into a two phase solution, the added variable is called x1, and all the other variables are shifted over 1.
+There might be other problems.  Just email me if you have a question and I'll take a look
+
+thomas.ramfjord #at# gmail.com
